@@ -1,0 +1,252 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{C53642F7-F3B1-4EFD-B5D8-9BB904485B7E}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>wetPlant</RootNamespace>
+    <AssemblyName>wetPlant</AssemblyName>
+    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>x64</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form2.Designer.cs">
+      <DependentUpon>Form2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form3.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form3.Designer.cs">
+      <DependentUpon>Form3.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Pagina2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Pagina2.Designer.cs">
+      <DependentUpon>Pagina2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form2.resx">
+      <DependentUpon>Form2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form3.resx">
+      <DependentUpon>Form3.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Pagina2.resx">
+      <DependentUpon>Pagina2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\diseño form 1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\diseño form 1 buena resolu.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\diseño form 1 buena resolu1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\diseño form 1 buena resolu2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\diseño form 1 buena resolu3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\boton buscar.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\diseño form 1 buena resolu4.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\diseño form 1 buena resolu5.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\diseño form 1 buena resolu6.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\diseño form 1 buena resolu7.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\diseño form 1 buena resolu8.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\diseño form 2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\diseño form 21.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\diseño form 22.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\diseño form 23.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\diseño form 3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\diseño form 31.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\diseño form 32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\diseño form 33.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\diseño form 34.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\diseño form 35.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\diseño form 4.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\diseño form 41.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\diseño form 42.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\boton buscar1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\boton buscar2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Boton crear cuenta.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Boton crear cuenta1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Captura crear cuenta.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pantalla general visual.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\boton aceptar.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\boton atrad.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pantalla general visual1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\boton borrar.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\boton borrar1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\boton borrar2.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\login.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\crear acc.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pantalla general visual2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\buscar.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\boton atras png.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\asignar.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\siguiente.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pantalla general visual3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\iniciar.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\iniciar1.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pantalla general visual4.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
