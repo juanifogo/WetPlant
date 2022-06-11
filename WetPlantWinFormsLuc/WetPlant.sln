@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.2.32526.322
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WetPlant", "WetPlant\WetPlant.csproj", "{3CA36A31-4C3D-4CEB-97C3-336C1CB6802C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3CA36A31-4C3D-4CEB-97C3-336C1CB6802C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3CA36A31-4C3D-4CEB-97C3-336C1CB6802C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3CA36A31-4C3D-4CEB-97C3-336C1CB6802C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3CA36A31-4C3D-4CEB-97C3-336C1CB6802C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {35F9F796-BFA6-4490-9E4D-00971C3FE864}
+	EndGlobalSection
+EndGlobal
