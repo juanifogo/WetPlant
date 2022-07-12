@@ -1,0 +1,4 @@
+Port=COM4
+BaudRate=9600
+WriteTimeOut=500
+ReadTimeOut=2000
