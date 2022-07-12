@@ -11,7 +11,7 @@
 #define bomState states[1]
 #define ventState states[2]
 #define lightThresh 60
-#define humThresh 30
+#define humThresh 40
 #define tempThresh 30
 const int DHTPin = 8;
 unsigned long previousMillis = 0, currentMillis;
@@ -59,6 +59,7 @@ void loop() {
     previousMillis = currentMillis;
   }
   vals[0] = map(vals[0], 0, 100, 100, 0);
+  vals[1] = map(vals[1], 0, 100, 100, 0);
   for (int i = 0; i<3; i++)
   {
     if (vals[i] >= threshs[i]) 
