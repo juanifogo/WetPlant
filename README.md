@@ -2,11 +2,27 @@
 
 # WetPlant 
 
-### Version final del proyecto curricular realizado en 2021 como parte de la materia Proyecto de la Escuela Secundaria ORT Sede Belgrano, oritentacion TIC
+### Version final del proyecto curricular realizado en 2021/2022 como parte de la materia Proyecto del tercer año la Escuela Secundaria ORT Sede Belgrano, oritentacion TIC. Luego fue presentado en la exposición anual de TIC Experience.
 
 El objetivo del proyecto es monitorear varios parametros que afecten la salud de una planta, y compensarlos cuando no se leen valores optimos. Para esto es necesario un sistema que implemente estas funciones electronicamente.
 
 Este repositorio contiene el codigo fuente que utilizaria tanto un Arduino Uno para implementar estas funciones, como la aplicacion de escritorio para Windows con la que se visualizan los valores medidos por el sistema.
+
+En el proyecto contribuyeron:
+ - Juan Ignacio F.        - 4° TIC A 2022
+ - Joaquim Rodrigo DS. G. - 4° TIC A 2022
+ - Francisco Ezequiel M.  - 4° TIC A 2022
+ - Max Z.                 - 4° TIC A 2022
+ - Joaquin Francisco O.   - 4° TIC A 2022
+ - Lucas Felipe C.        - 4° TIC A 2022
+ - Tomás S.               - 3° TIC C 2022
+
+Gracias especiales a los profesores de TIC:
+ - Rubén K.
+ - Carolina K.
+ - Ivo Gabriel D.
+ - Ignacio P.
+ - Paula S.
 
 ## Esquematico del circuito
 ![Diagrama_WetPlant](https://github.com/juanifogo/WetPlantFinaPlis/assets/83310328/eef8f785-b639-4b6a-ab0f-eef90e0a3f8f)
