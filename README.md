@@ -48,7 +48,7 @@ Este PCB es un shield para el Arduino Uno, tiene conectados 3 relés con sus res
 - Ventilador de PC [Link Mercado Libre](https://articulo.mercadolibre.com.ar/MLA-935964895-ventilador-12v-5010-50x50x10mm-impresora-3d-_JM#position=5&search_layout=stack&type=item&tracking_id=735aea56-b071-41aa-8112-1a4043321e56)
 - Arduino Uno [Link Mercado Libre](https://articulo.mercadolibre.com.ar/MLA-1363350191-placa-arduino-uno-r3-smd-atmega328-ch340-robotica-usb-cable-_JM#position=5&search_layout=grid&type=item&tracking_id=aee7d7d0-c067-4ec3-9e1c-bf1e12d00ec9)
 
-Tambien se usaron materiales genericos como fuentes de alimentacion de 12v o 5v para los actuadores, un cable USB Tipo A - USB Tipo B para subir el codigo al rduino Uno y comunicarlo con la aplicación de escritorio, un contenedor para el agua de la bomba, una maceta, tornillos y tuercas para sostener la placa en su lugar, y cables dupont para conectar los sensores desde la placa hasta la maceta.
+Tambien se usaron materiales genericos como fuentes de alimentacion de 12v o 5v para los actuadores, un cable USB Tipo A - USB Tipo B para subir el codigo al Arduino Uno y comunicarlo con la aplicación de escritorio, un contenedor para el agua de la bomba, una maceta, tornillos y tuercas para sostener la placa en su lugar, y cables dupont para conectar los sensores desde la placa hasta la maceta.
 
 ### Foto de la versión final del dispositivo
 
