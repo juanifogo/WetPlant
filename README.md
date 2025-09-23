@@ -60,6 +60,6 @@ Este proyecto actualmente no esta siendo desarrollado, pero de serlo, estas son 
  - Implementacion de una lampara UV apta para el crecimiento de plantas
  - Implementacion de una valvula que funcione como gotero en vez de una bomba de agua, ya que esta ultima larga el agua con demasiada presion.
  - Implementacion del monitoreo remoto de los sensores.
- - Implementaciond en un regulado ajustable al tipo de planta.
+ - Implementacion en un regulado ajustable al tipo de planta.
  - Implementacion de un sistema de alimentacion más sofisticado, que pueda no depender de la red electrica sino baterías.
  - Medición del pH de la tierra. 
