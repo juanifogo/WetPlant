@@ -30,7 +30,7 @@ Gracias especiales a los profesores de TIC:
 ## Diseño del PCB
 ![wetPlantPCB_Final](https://github.com/juanifogo/WetPlantFinaPlis/assets/83310328/d2c0da3e-b80d-4c63-b47c-591c7daa3163)
 
-Este PCB es un shield para el Arduino Uno, tiene conectados 3 relés con sus respectivos diodos de protección y transistores para activarlos, como también agujeros para soldar los 3 sensores utilizados. También tiene [pines dobles](https://site.gravitech.us/Components/8Fx1L-254mm/8Fx1L-254mm_2R.jpg) para poder conectar de un lado el Arduino Uno y del otro cualquir otro componente que se quiera agregar. Adicionalmente a los reles se les conectan los actuadores que son conmutados en base a los valores medidos por los sensores, estos son una lampara, un ventilador, y una bomba de agua.
+Este PCB es un shield para el Arduino Uno, tiene conectados 3 relés con sus respectivos diodos de protección y transistores para activarlos, como también agujeros para soldar los 3 sensores utilizados. También tiene [pines dobles](https://ae01.alicdn.com/kf/S0f51fe67858c4b89abc476bc435c72cel.jpg?width=1000&height=1000&hash=2000) para poder conectar de un lado el Arduino Uno y del otro cualquir otro componente que se quiera agregar. Adicionalmente a los reles se les conectan los actuadores que son conmutados en base a los valores medidos por los sensores, estos son una lampara, un ventilador, y una bomba de agua.
 
 ## Diseño de la carcasa
 
